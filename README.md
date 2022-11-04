@@ -24,12 +24,12 @@ code blocks for commands
 Any advise for common problems or issues.
 command to run if program contains helper info
 
-## Authors
-Contributors names and contact info
-
 ## Version History
 
 ## License
-This project is licensed under the [NAME HERE] License 
+This project is licensed under the MIT License 
 
 ## Acknowledgments
+This has been possible thankfully to the fruitful  brainstorming with the Greenland Shark team :shark:
+    * Ricky Bryans
+    * Chris-Eric Dagbo
