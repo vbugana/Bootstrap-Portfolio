@@ -31,5 +31,6 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 This has been possible thankfully to the fruitful  brainstorming with the Greenland Shark team :shark:
-    * Ricky Bryans
-    * Chris-Eric Dagbo
+
+    *Ricky Bryans
+    *Chris-Eric Dagbo
