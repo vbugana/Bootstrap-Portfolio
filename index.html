@@ -1,81 +1,83 @@
 <!DOCTYPE html>
 <html lang="en=gb">
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bootstrap-Portfolio</title>
+    
+    <title>Vittoria Bugana || Bootstrap-Portfolio</title>
 </head>
 <body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-        
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
     
-      <!--JUMBTRON-->
-      <div class="jumbotron">
-        <h1 class="display-4">Vittoria Bugana</h1>
-        <p class="lead"> A little bird told me 🐦</p>
-        <hr class="my-4">
-        <p>Life is too short to not be positive and be smiling!!Don't stress be happy 😊</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+   <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+      <a class="navbar-brand" href="#"><img src="images/Allocco.PNG">Vittoria Bugana</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">My Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More...</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">My Portfolio</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Skills</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">About me</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Contact me</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+    <!-- End navigation bar -->
+    <!--Jumbtron-->
 
-           <!-- Cards -->
-    <div class="container-fluid content">
+    <div class="jumbotron colorBackground">
+      <div class="jumboCopy">
+        <h1 class="display-4">A little birdie has told me 🐦...</h1>
+        <p class="lead">Don't worry be happy😊😊😊!!!<br>Life is way too short❤️❤️❤️</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">My portfolio</a>
+      </div>
+    </div>
+    <!-- End jumbotron -->
+          
+      <!-- Cards -->
+      <div class="container-fluid content">
         <h2 class="sectionHeading">My portfolio</h2>
-        <div class="row work">
-
+        <div class="row myPorfolio">
+  
+        
           <!-- Card 1 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
             <div class="card">
               <img src="images/31343C.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Placeholder1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo?</p>
               </div>
             </div>
           </div>
           <!-- End card 1 -->
   
           <!-- Card 2 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
             <div class="card">
               <img src="images/31343C.svg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -87,7 +89,7 @@
           <!-- End card 2 -->
   
           <!-- Card 3 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
             <div class="card">
               <img src="images/31343C.svg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -97,56 +99,185 @@
             </div>
           </div>
           <!-- End card 3 -->
+        
+      <!--Card 4-->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/31343C.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Placeholder4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo</p>
+          </div>
         </div>
       </div>
+      <!-- End card 4 -->
+
+       <!--Card 5-->
+       <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/31343C.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Placeholder5</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo</p>
+          </div>
+        </div>
+      </div>
+      <!-- End card 5 -->
+
+        <!--Card 6-->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+          <div class="card">
+            <img src="images/31343C.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Placeholder6</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo</p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 6 -->
+          <!--Card 7-->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/31343C.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder7</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo</p>
+              </div>
+            </div>
+          </div>
+          <!-- End card 7 -->
+            <!--Card 8-->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+          <div class="card">
+            <img src="images/31343C.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Placeholder8</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius odit nemo</p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 8 -->
+
+    </div>
+
       <!-- End cards -->
 
       <!--Skills-->
 
-      <div class="container-fluid content">
-        <h2 class="sectionHeading">Skills</h2>
-        <div class="row skills ">
-            <ul>
-                <li> HTML 5 </li>
-                <li> Web Accessibility </li>
-                <li> CSS 3 </li>
-                <li> Bootstrap 4 </li>
-                <li> GIT & GITHUB </li>
-                <li> The importance of Documentation: README.md best practices </li>
-                <li> UX & UI </li>
-                <li> Figma </li>
-                <li> Tricks & tips on how to code smarter and faster </li>
-                <li> Working as a team: efficiently and effectively </li>
-                <li> Effective communication: with UI designer, clients and team members </li>
-                <li> Javascript</li>
-                <li> API </li>
-                <li> Development with React </li>
-                <li> Node.js </li>
-                <li> React states and deployment</li>
-                <li> Apply creativity</li>
-                <li> Wireframing</li>
-                <li> Problem solving</li>
-                <li> Thinking like a developer: be able to think outside the box</li>
-                <li> Be proactive  </li>
-
-            </ul>
+      <!-- Row 1 -->
+      <div class="row valueProp">
+        <div class="sideAccent">
         </div>
-    </div>
-        <!--About ME-->
+        <div class="imageContainer col-3">
+          <img src="images/skills.png">
+        </div>
+        <div class="text col-8">
+          <h2 class="sectionHeading"> Skills </h2>
+            <p class="skills"> What did I learn so far?</p>
+            <ul>
+            <li> GIT & GITHUB </li>
+            <li> The importance of Documentation: README.md best practices </li>
+            <li> HTML 5 </li>
+            <li> Web Accessibility </li>
+            <li> CSS 3 </li>
+            <li> Wireframing</li>
+            <li> UX & UI </li>
+            <li> Bootstrap 4 </li>      
+            <li> Figma </li>
+            <li> Tricks & tips on how to code smarter and faster </li>
+            <li> Working as a team: efficiently and effectively </li> 
+            </ul>
+            <p class="skills"> What I am going to learn soon: </p>
+            <ul>
+            <li> Javascript</li>
+            <li> API </li>
+            <li> Development with React </li>
+            <li> Node.js </li>
+            <li> React states and deployment</li>
+            </ul>
+            <p class="skills" >Important soft skills I have learnt and applied throughout the bootcamp:</p>
+            <ul>
+            <li> Effective communication: with UI designer, clients and team members </li>
+            <li> Apply creativity</li>
+            <li> Problem solving</li>
+            <li> Thinking like a developer: be able to think outside the box</li>
+            <li> Be proactive </li>
+           </ul>
+          </p>
+        </div>
+      </div>
+      <!-- End row 1 -->
+   <!-- Row 2 -->
+
+    <!--About ME-->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="imageContainer col-3">
+        <img src="images/photo_2022-11-07_23-08-16.jpg">
+      </div>
+      <div class="text col-8">
         <div class="container-fluid content">
             <h2 class="sectionHeading">About Me</h2>
             <div class="row me">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione reiciendis vel sed dolore maxime deleniti illum, facere et, voluptates aliquid officiis so
                     luta inventore reprehenderit repellendus quam recusandae omnis? Neque.</p>
         </div>
+        <a href="#" class="btn btn-primary">Contact Me
+        </a>
     </div>
-        <footer> 
-            <h2 class="sectionHeading">Contacts</h2>
-            <div class="row contacts">
-            <ul>
-                <li><a href="mailto:someone@example.com">Send email</a></li>
-                <li><a href="tel:+4733378901">+47 333 78 901</a></li>
+  </div>
 
-            </ul>
-        </footer>
+   <!-- Row 3 -->
+ <!-- Contact-->
+ <div class="row valueProp">
+  <div class="sideAccent">
+  </div>
+  <div class="imageContainer col-3">
+    <img src="images/contactMe2.PNG">
+  </div>
+  <div class="text col-8">
+    <div class="container-fluid content">
+        <h2 class="sectionHeading">Contact Me</h2>
+        <section class="contact-section bg-black">
+          <div class="container">
+          <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <h4 class="text-uppercase m-0">Address</h4>
+            <hr class="my-4" />
+            <div class="small text-black-50">57 Shire Oak Road, Manchester</div>
+          </div>
+          </div>
+          </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <h4 class="text-uppercase m-0">Email</h4>
+            <hr class="my-4" />
+            <div class="small text-black-50"><a href="#!">vbugana@email.com</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Phone</h4>
+            <hr class="my-4" />
+            <div class="small text-black-50">+44 161 496 0292</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- End footer -->
+<footer>
+  <div class="container">
+    <p>&copy; Your Website 2022. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
 </html>
