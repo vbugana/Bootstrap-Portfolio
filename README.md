@@ -3,26 +3,73 @@
 Simple overview of use/purpose.
 
 ## Description
-An in-depth paragraph about your project and overview of use.
+The main objective of this challange is to create a portfolio layout using the Bootstrap CSS Framework.
 
-## Getting Started
+## Instructions
 
-### Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
+1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
 
-### Installing
-How/where to download your program
-Any modifications needed to be made to files/folders
+2. Clone this repository to your computer.
 
-### Executing program
-How to run the program
-Step-by-step bullets
-code blocks for commands
+3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+   
+   - Create a folder structure.
 
-## Help
-Any advise for common problems or issues.
-command to run if program contains helper info
+     - Create a `index.html`.
+
+     - Create a `css` folder.
+
+       - Inside create a `style.css` file.
+
+   - Create an `images` folder.
+
+       - Place all your images in this folder.
+
+4. Using Bootstrap, recreate your portfolio site with the following items:
+
+   The website should include the following bootstrap components:
+
+    - A Navigation bar
+    
+    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+
+      - Include links that are applicable to your portfolio.
+  
+        - Links should navigate to the appropriate sections 
+
+    - A hero section
+
+        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
+
+    - A work section
+
+      - A section displaying your work in grid. 
+
+        - If you need to use placeholder image use: https://placehold.co/ 
+
+      - Use bootstrap cards for each project.
+
+        - The description should give a brief overview of the work.
+
+      - Each project will eventually link to your class project work!
+
+    - A skills section
+
+      - List out the skills you expect to learn from the bootcamp.
+
+    - An about / contact section.
+
+      - An "About Me" section in the same row.
+    
+    - A footer section.
+
+      - All hyperlinks should have a hover effect.
+
+      - All buttons should display a box shadow upon hover.
+
+5. Your Bootstrap solution should minimize use of media queries.
+
+6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Version History
 
